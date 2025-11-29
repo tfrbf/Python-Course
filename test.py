@@ -1,3 +1,4 @@
+# this is a test
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
@@ -109,3 +110,4 @@ ani = FuncAnimation(fig, update, frames=np.arange(0, 200), init_func=init, blit=
 
 # Show the animation
 plt.show()
+
